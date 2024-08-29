@@ -503,7 +503,7 @@ video {
   --tw-backdrop-invert:  ;
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-backdrop-sepia:  ;background-color: rgb(97 50 220 / 1 !important) !important;
   --tw-contain-size:  ;
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
@@ -2855,7 +2855,8 @@ video {
 
 .\!bg-\[\#343f52\] {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(52 63 82 / var(--tw-bg-opacity)) !important;
+  /*background-color: rgb(52 63 82 / var(--tw-bg-opacity)) !important;*/
+  background-color: rgb(97 50 220 / var(--tw-bg-opacity)) !important;
 }
 
 .\!bg-\[\#3f78e0\] {
@@ -10253,8 +10254,8 @@ figure img {
 }
 
 .img-mask.mask-3 img {
-  -webkit-mask-image:url(assets/img/svg/blob2.svg);
-  mask-image:url(assets/img/svg/blob2.svg)
+  /* -webkit-mask-image:url(assets/img/svg/blob2.svg);
+  mask-image:url(assets/img/svg/blob2.svg) */
 }
 
 .table:not(.table-borderless) tbody {
