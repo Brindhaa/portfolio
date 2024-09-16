@@ -3131,7 +3131,8 @@ video {
 
 .\!bg-\[\#ffffff\] {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+  /*background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;*/
+  background: #F5F3EF !important;
 }
 
 .\!bg-\[rgba\(116\2c 126\2c 209\)\] {
@@ -5445,6 +5446,7 @@ video {
 .text-\[\#a07cc5\] {
   --tw-text-opacity: 1;
   color: rgb(160 124 197 / var(--tw-text-opacity));
+  font-family: 'space mono';
 }
 
 .text-\[\#aab0bc\] {
@@ -6041,6 +6043,7 @@ body {
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   word-spacing:.05rem;
+  background: #F5F3EF !important;
 }
 
 hr {
@@ -7981,6 +7984,8 @@ blockquote.nav-justified .nav-item.icon-top:before,blockquote.nav-justified>.nav
 }
 
 .card {
+  background-color: #E6E4E0 !important;
+  border-radius:8px;
   position: relative;
   display: flex;
   min-width: 0px;
@@ -26789,7 +26794,7 @@ blockquote.video-wrapper .video-content.icon-top:before {
 
 .before\:bg-\[rgba\(255\2c 255\2c 255\2c \.5\)\]::before {
   content: var(--tw-content);
-  background-color: rgba(255,255,255,.5);
+  /*background-color: rgba(255,255,255,.5);*/
 }
 
 .before\:bg-\[rgba\(255\2c 255\2c 255\2c \.6\)\]::before {
@@ -34509,6 +34514,7 @@ blockquote.video-wrapper .video-content.icon-top:before {
 
   .xl\:text-\[2\.2rem\] {
     font-size: 2.2rem;
+    font-family: 'space mono';
   }
 
   .xl\:text-\[2\.3rem\] {
