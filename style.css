@@ -154,10 +154,10 @@ small {
 }
 .btn-group-lg>.btn, .btn-lg {
   padding-top: .7rem;
-  background-color: #f7cb45 !important;
-  border-bottom-color: #000000 !important;
+  background-color: rgb(97 50 220 / var(--tw-bg-opacity)) !important;
+  /* border-bottom-color: #000000 !important; */
   border-bottom-width: 5px;
-  color: #000000;
+  color: #fff !important;
   font-weight: 900 !important;
   font-size: 18px !important;
   padding-bottom: .6rem;
@@ -7851,6 +7851,7 @@ blockquote.nav-justified .nav-item.icon-top:before,blockquote.nav-justified>.nav
 }
 
 .navbar {
+  background: #F5F3EE;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -7972,7 +7973,8 @@ blockquote.nav-justified .nav-item.icon-top:before,blockquote.nav-justified>.nav
 
 .navbar-dark .nav-link {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(52 63 82 / var(--tw-text-opacity));
+  /* color: rgb(255 255 255 / var(--tw-text-opacity)); */
 }
 
 .navbar-dark .nav-link:hover {
